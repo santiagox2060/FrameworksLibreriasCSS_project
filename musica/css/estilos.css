@@ -1,5 +1,5 @@
 .contenedor-principal{
-  width: 80%;
+  border: solid 1px;
 }
 
 .navbar-inverse{
@@ -11,8 +11,14 @@
 .logo-img {
   width: 100px;
 }
-
+.redes-sociales{
+  margin-top: 30px;
+}
 .img-social{
   height: 40px;
   width: 40px;
+}
+
+@media (max-width: 600px) {
+  
 }
