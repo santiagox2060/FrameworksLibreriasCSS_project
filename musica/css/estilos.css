@@ -1,9 +1,12 @@
+.blog-body{
+  background-color: #E5E8E8;
+}
 .contenedor-principal{
   border: solid 1px;
 }
 
 .navbar-inverse{
-  background: #082D5E;
+  background: #17202A;
   min-height: 10%;
   border: none;
 }
@@ -12,13 +15,34 @@
   width: 100px;
 }
 .redes-sociales{
-  margin-top: 30px;
+  margin-top: 50px;
+  text-align: right;
 }
 .img-social{
   height: 40px;
   width: 40px;
 }
-
+.navbar-musica{
+  background-color: #37474F;
+}
+.img-entrada{
+  width: 100%;
+}
+.row-contenido{
+  background-color: #FFFFFF;
+}
+.row-entrada{
+  padding-top: 1rem;
+}
+.img-comentario{
+  width: 1rem;
+}
+.row-comentario{
+  margin-top: 1rem;
+}
 @media (max-width: 600px) {
-  
+  .redes-sociales{
+    margin-top: 0px;
+    text-align: center;
+  }
 }
