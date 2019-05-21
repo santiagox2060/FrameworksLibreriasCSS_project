@@ -27,6 +27,7 @@
 }
 .img-entrada{
   width: 100%;
+  margin-bottom: 1rem;
 }
 .row-contenido{
   background-color: #FFFFFF;
@@ -35,14 +36,23 @@
   padding-top: 1rem;
 }
 .img-comentario{
-  width: 1rem;
+  width: 4rem;
 }
 .row-comentario{
   margin-top: 1rem;
+}
+.row-busqueda{
+  margin-top: 1rem;
+}
+.img-busqueda{
+  width: 1rem;
 }
 @media (max-width: 600px) {
   .redes-sociales{
     margin-top: 0px;
     text-align: center;
+  }
+  .col-oculta{
+    display: none;
   }
 }
