@@ -1,0 +1,8 @@
+.body-comida{
+  background: url(../img/cocina.jpg);
+  width: 100%;
+}
+.contenedor{
+  background-color: rgba(242, 243, 244, 0.6);
+  min-height: 100%;
+}
