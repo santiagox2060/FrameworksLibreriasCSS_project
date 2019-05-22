@@ -6,3 +6,9 @@
   background-color: rgba(242, 243, 244, 0.6);
   min-height: 100%;
 }
+.cont-izquierda{
+  background-color: rgba(242, 243, 244);
+}
+.cont-derecha{
+  background-color: rgba(242, 243, 244);
+}
