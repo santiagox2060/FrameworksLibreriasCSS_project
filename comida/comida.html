@@ -7,6 +7,7 @@
     <title>Foundation Blog Comida</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
   </head>
   <body class="body-comida">
     <div class="grid-container contenedor">
@@ -24,119 +25,159 @@
 
       <div class="grid-x grid-padding-x grid-margin-x contenido">
 
-        <div class="large-4 medium-4 cell cont-izquierda">
-          <h5>Try one of these buttons:</h5>
-          <p><a href="#" class="button">Simple Button</a><br/>
-          <a href="#" class="success button">Success Btn</a><br/>
-          <a href="#" class="alert button">Alert Btn</a><br/>
-          <a href="#" class="secondary button">Secondary Btn</a></p>
-          <div class="callout">
-            <h5>So many components, girl!</h5>
-            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-            <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+        <div class="large-4 medium-4 cell hide-for-small-only cont-izquierda">
+          <div class="grid-x busqueda">
+            <form>
+              <div class="input-group">
+                <input name="busqueda" type="text" placeholder="buscar" class="input-group-field" />
+                <button type="submit" class="button"><i class="step fi-magnifying-glass"></i></button>
+              </div>
+            </form>
           </div>
+
+          <ul class="vertical menu text-center">
+            <li class="is-active"><a href="#">Mi plato perfecto</a></li>
+            <li class="is-active"><a href="#">Mis recetas</a></li>
+            <li class="is-active"><a href="#">Favoritos</a></li>
+          </ul>
+
+          <div class="grid-x favoritos-img">
+            <div class="large-4 medium-4 small-4 cell">
+              <a href="#"><img src="img/plato1.png" alt="Decoracion 1" class="thumbnail img-platos"/></a>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <a href="#"><img src="img/plato2.jpg" alt="Decoracion 1" class="thumbnail img-platos"/></a>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <a href="#"><img src="img/plato3.jpg" alt="Decoracion 1" class="thumbnail img-platos"/></a>
+            </div>
+          </div>
+          <div class="grid-x">
+            <div class="large-4 medium-4 small-4 cell">
+              <a href="#"><img src="img/plato4.jpg" alt="Decoracion 1" class="thumbnail img-platos"/></a>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <a href="#"><img src="img/plato5.jpg" alt="Decoracion 1" class="thumbnail img-platos"/></a>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <a href="#"><img src="img/plato6.jpg" alt="Decoracion 1" class="thumbnail img-platos"/></a>
+            </div>
+          </div>
+          <ul class="vertical menu">
+            <li class="is-active">
+              <strong>Historial</strong>
+              <ul class="nested vertical menu">
+                <li><a href="#">Lasaña</a></li>
+                <li><a href="#">Espagueti a la boloñesa</a></li>
+                <li><a href="#">Pizza de vegetales</a></li>
+                <li><a href="#">Consejos en la cocina</a></li>
+                <li><a href="#">Los mejores utensillos</a></li>
+                <li><a href="#">Cortes de carne</a></li>
+                <li><a href="#">Sorprende a tus invitados</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
 
         <div class="large-8 medium-8 cell cont-derecha">
-          <h5>Here&rsquo;s your basic grid:</h5>
-          <!-- Grid Example -->
 
           <div class="grid-x grid-padding-x">
             <div class="large-12 cell">
               <div class="primary callout">
-                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-            <div class="large-6 medium-6 cell">
-              <div class="primary callout">
-                <p>Six cell</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-x grid-padding-x">
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-            <div class="large-4 medium-4 small-4 cell">
-              <div class="primary callout">
-                <p>Four cell</p>
-              </div>
-            </div>
-          </div>
-
-          <hr />
-
-          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-          <form>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-12.cell" />
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <label>Input Label</label>
-                <input type="text" placeholder="large-4.cell" />
-              </div>
-              <div class="large-4 medium-4 cell">
-                <div class="grid-x">
-                  <label>Input Label</label>
-                  <div class="input-group">
-                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
-                    <span class="input-group-label">.com</span>
+                <h3>Texto de prueba</h3>
+                <p class="publicado">Publicado por: <a href="#">Santiago Bejarano</a> - 21/05/2019 14:02:03</p>
+                <img src="img/pub1.jpg" alt="lasaña" class="thumbnail"/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <form>
+                  <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell">
+                      <label>Escribe un comentario:</label>
+                      <textarea placeholder="comentario..."></textarea>
+                    </div>
+                    <div class="large-12 cell text-right">
+                      <button type="submit" class="button"><i class="step fi-pencil"></i> Publicar</button>
+                    </div>
+                  </div>
+                </form>
+                <hr />
+                <div class="grid-x grid-padding-x comentario">
+                  <div class="large-2 small-2 cell elemento-coment">
+                    <img src="img/user1.png" alt="lasaña" class="thumbnail"/>
+                  </div>
+                  <div class="large-10 small-9 cell elemento-coment">
+                    <p><strong>user_xyz: </strong>Delicioso platillo y sencillo de realizar</p>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x comentario">
+                  <div class="large-2 small-2 cell elemento-coment">
+                    <img src="img/user2.png" alt="lasaña" class="thumbnail"/>
+                  </div>
+                  <div class="large-10 small-9 cell elemento-coment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x comentario">
+                  <div class="large-2 small-2 cell elemento-coment">
+                    <img src="img/user3.png" alt="lasaña" class="thumbnail"/>
+                  </div>
+                  <div class="large-10 small-9 cell elemento-coment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                   </div>
                 </div>
               </div>
+
             </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Select Box</label>
-                <select>
-                  <option value="husker">Husker</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
+          </div>
+
+
+
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <h3>Texto de prueba</h3>
+                <p class="publicado">Publicado por: <a href="#">Santiago Bejarano</a> - 21/05/2019 14:02:03</p>
+                <img src="img/pub1.jpg" alt="lasaña" class="thumbnail"/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <form>
+                  <div class="grid-x grid-padding-x">
+                    <div class="large-12 cell">
+                      <label>Escribe un comentario:</label>
+                      <textarea placeholder="comentario..."></textarea>
+                    </div>
+                    <div class="large-12 cell text-right">
+                      <button type="submit" class="button"><i class="step fi-pencil"></i> Publicar</button>
+                    </div>
+                  </div>
+                </form>
+                <hr />
+                <div class="grid-x grid-padding-x comentario">
+                  <div class="large-2 small-2 cell elemento-coment">
+                    <img src="img/user1.png" alt="lasaña" class="thumbnail"/>
+                  </div>
+                  <div class="large-10 small-9 cell elemento-coment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x comentario">
+                  <div class="large-2 small-2 cell elemento-coment">
+                    <img src="img/user2.png" alt="lasaña" class="thumbnail"/>
+                  </div>
+                  <div class="large-10 small-9 cell elemento-coment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                  </div>
+                </div>
+                <div class="grid-x grid-padding-x comentario">
+                  <div class="large-2 small-2 cell elemento-coment">
+                    <img src="img/user3.png" alt="lasaña" class="thumbnail"/>
+                  </div>
+                  <div class="large-10 small-9 cell elemento-coment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                  </div>
+                </div>
               </div>
+
             </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-6 medium-6 cell">
-                <label>Choose Your Favorite</label>
-                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-              </div>
-              <div class="large-6 medium-6 cell">
-                <label>Check these out</label>
-                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-              </div>
-            </div>
-            <div class="grid-x grid-padding-x">
-              <div class="large-12 cell">
-                <label>Textarea Label</label>
-                <textarea placeholder="small-12.cell"></textarea>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
 
       </div>

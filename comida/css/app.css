@@ -12,3 +12,26 @@
 .cont-derecha{
   background-color: rgba(242, 243, 244);
 }
+.img-busqueda{
+  width: 1rem;
+}
+.busqueda{
+  margin-top: 1rem;
+}
+.favoritos-img{
+  margin-top: 1rem;
+}
+.img-platos{
+  height: 200px;
+}
+.comentario{
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+}
+.elemento-coment{
+  margin-top: 1rem;
+}
+.publicado{
+  color: rgba(183, 149, 11);
+  font-style: italic;
+}
