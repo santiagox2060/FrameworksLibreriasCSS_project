@@ -1,4 +1,31 @@
-.body-comida{
+body{
+
+}
+.bbf{
+  background-color: black;
   background: url(../img/fondo.jpg);
-  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.barra-superior{
+  min-height: 5rem;
+}
+.logo{
+  width: 128px;
+  margin-top: 0.5rem;
+  float: left;
+}
+.barra-nav{
+  min-height: 100px;
+}
+.slogan{
+  margin-top: -2rem;
+}
+
+@media (max-width: 600px) {
+  .slogan{
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
 }
