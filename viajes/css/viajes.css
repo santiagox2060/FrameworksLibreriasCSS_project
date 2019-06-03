@@ -1,12 +1,6 @@
 body{
-
-}
-.bbf{
-  background-color: black;
-  background: url(../img/fondo.jpg);
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/fondo2.jpg);
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 .barra-superior{
   min-height: 5rem;
@@ -21,11 +15,26 @@ body{
 }
 .slogan{
   margin-top: -2rem;
+  color: black !important;
+}
+.iconos-boton{
+  margin-top: -1rem;
+}
+.row-contenido{
+  margin-top: 6rem;
+}
+.botones-lateral{
+  margin-left: 1rem;
+}
+.imagen-galeria{
+  max-width: 100%;
 }
 
 @media (max-width: 600px) {
   .slogan{
-    margin-top: 3rem;
     font-size: 2rem;
+  }
+  .logo{
+    width: 64px;
   }
 }
