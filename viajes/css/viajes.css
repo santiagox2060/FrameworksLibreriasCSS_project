@@ -29,7 +29,23 @@ body{
 .imagen-galeria{
   max-width: 100%;
 }
-
+.entradas, .autor{
+  background-color: white;
+}
+.contenedor{
+  min-width: 95%;
+}
+.escritor-img{
+  width: 10rem;
+  margin-top: 1rem;
+}
+.testo{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.comentario{
+  background: #EAEDED;
+}
 @media (max-width: 600px) {
   .slogan{
     font-size: 2rem;
